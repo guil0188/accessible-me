@@ -73,9 +73,7 @@ form button {
   padding: 2rem 0;
 }
 /******************************************************************************************** 
- 
 This css will make the skip links navigation be hidden and only apear when user tabs on it 
-
 ********************************************************************************************/
 .skiplinks ul{
   list-style: none;
@@ -93,4 +91,20 @@ This css will make the skip links navigation be hidden and only apear when user 
   background-color: rgb(0, 0, 0);
   /* brings links back on page when on focus */
   top: 0em;  
+}
+
+/*******************************  
+            FORM
+*******************************/ 
+.contact-section{
+  /* adds border around form */
+  border: 1px solid black;
+  /* adds spacing so that the items in the border are centered */
+  padding: 1em 3em 1em 1em;
+}
+/* makes the send button visble when hovered */
+.contact-section button:hover{
+  background-color: black;
+  color: white;
+  cursor: pointer;
 }
