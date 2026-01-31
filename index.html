@@ -56,10 +56,11 @@
           <h3>Meet the owner</h3>
           <!-- adds itemscope and itemtype for better accessibility  -->
           <ul itemscope itemtype="https://schema.org/Person">
-            <li>Name: John Doe</li>
-            <li>Title: CEO</li>
-            <li>Email: johnjoe@jambox.ca</li>
-            <li>Phone: 613-000-0000</li>
+            <!-- adds itemprops for better accessibility -->
+            <li itemprop="name">Name: John Doe</li>
+            <li itemprop="jobTitle">Title: CEO</li>
+            <li itemprop="Email">Email: johnjoe@jambox.ca</li>
+            <li itemprop="Phone">Phone: 613-000-0000</li>
           </ul>
           <!-- changes h1 to h4 for proper hierarchy -->
           <h4>Address</h4>
