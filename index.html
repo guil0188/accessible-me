@@ -19,7 +19,8 @@
       <!-- Changes the div elemnt to the header element to give it meaning -->
       <!-- adds role="banner" for better accessibility -->
       <header class="site-header" role="banner">
-        <h1>Jam Box Studios</h1>
+        <!-- adds role="h1" for better accessibility -->
+        <h1 role="heading">Jam Box Studios</h1>
         <!-- Changes the div element to the nav element to give it meaning -->
         <!-- adds role="navigation to improve accessibility" -->
         <nav class="main-nav" role="navigation">
@@ -53,7 +54,8 @@
         <div class="owner">
           <!-- changes h1 to h3 for proper hierarchy -->
           <h3>Meet the owner</h3>
-          <ul>
+          <!-- adds itemscope and itemtype for better accessibility  -->
+          <ul itemscope itemtype="https://schema.org/Person">
             <li>Name: John Doe</li>
             <li>Title: CEO</li>
             <li>Email: johnjoe@jambox.ca</li>
@@ -66,7 +68,8 @@
         <div class="contact-section">
           <!-- changes h1 to h2 for proper hierarchy -->
           <h2>Contact Us</h2>
-          <form action="thanks.html">
+          <!-- adds role="form" for better accessibility -->
+          <form action="thanks.html" role="form">
             <label>Full Name</label>
             <input type="text" placeholder="Full Name" />
             <input type="text" placeholder="Email" />
@@ -79,7 +82,10 @@
         </div>
       </main>
       <!-- Changes the div element to the footer element to give it meaning -->
-      <footer class="site-footer">&copy; 2021 Jam Box Studios</footer>
+      <!-- adds role="contentinfo" for better accessibility-->
+      <footer class="site-footer" role="contentinfo">
+        &copy; 2021 Jam Box Studios
+      </footer>
     </div>
   </body>
 </html>
