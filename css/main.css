@@ -72,3 +72,18 @@ form button {
 .site-footer {
   padding: 2rem 0;
 }
+/* This css will make the skip links navigation be hidden and only apear when user tabs on it */
+.skiplinks ul{
+  list-style: none;
+  position: relative;
+}
+
+.skiplinks a{
+  /* removes the links from the document */
+  position: absolute;
+  /* places the links out of the document making it hidden */
+  top: -10em;
+}
+.skiplinks a:focus{
+  background-color: red;
+}
