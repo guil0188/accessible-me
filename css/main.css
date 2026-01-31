@@ -89,5 +89,8 @@ This css will make the skip links navigation be hidden and only apear when user 
   top: -10em;
 }
 .skiplinks a:focus{
-  background-color: red;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  /* brings links back on page when on focus */
+  top: 0em;  
 }
