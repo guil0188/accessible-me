@@ -31,12 +31,20 @@
             <li><a href="#">Studio</a></li>
           </ul>
         </nav>
+        <!-- this nav will be hidden and it will only apear when the user tabs on it -->
+        <nav class="skiplinks">
+          <ul>
+            <li><a href="#about-us">Skip to about us</a></li>
+            <li><a href="#meet-owner">Skip to meet the owner</a></li>
+            <li><a href="#contact-form">Skip to contact form</a></li>
+          </ul>
+        </nav>
         <!-- added a link image -->
         <img src="https://picsum.photos/1200/900" class="banner" />
       </header>
       <!-- Changes the div element to the main element to give it meaning -->
       <!-- adds role="main" for better accessibility -->
-      <main class="main-content" role="main">
+      <main class="main-content" id="about-us" role="main">
         <!-- changes h1 to h2 for proper hierarchy -->
         <h2>Welcome to Jam Box</h2>
         <p>
@@ -51,7 +59,7 @@
           fugit culpa voluptatibus, inventore eaque, eligendi voluptatum!
           Voluptate iusto error voluptatibus.
         </p>
-        <div class="owner">
+        <div class="owner" id="meet-owner">
           <!-- changes h1 to h3 for proper hierarchy -->
           <h3>Meet the owner</h3>
           <!-- adds itemscope and itemtype for better accessibility  -->
@@ -66,7 +74,7 @@
           <h4>Address</h4>
           <p>Jambox Studios 123 Guitar Road, Musicville, Danceistan B3T 0L0</p>
         </div>
-        <div class="contact-section">
+        <div class="contact-section" id="contact-form">
           <!-- changes h1 to h2 for proper hierarchy -->
           <h2>Contact Us</h2>
           <!-- adds role="form" for better accessibility -->
