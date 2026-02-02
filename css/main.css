@@ -25,6 +25,7 @@ h6 {
 /* sets the width of the image */
 img {
   width: 100%;
+  margin: 1rem 0 1rem 0;
 }
 
 .main-nav ul {
@@ -52,6 +53,10 @@ img {
   /* removes underline */
   text-decoration: none;
   font-size: 1.25rem;
+}
+.main-nav ul li a:hover{
+  background-color: black;
+  color: white;  
 }
 
 form input,
@@ -99,6 +104,19 @@ This css will make the skip links navigation be hidden and only apear when user 
   /* brings links back on page when on focus */
   top: 0em;  
 }
+/*******************************  
+        Welcome Section
+*******************************/ 
+.welcome{
+  background-color: lightgray;
+  padding: 1rem;
+}
+
+.owner{
+  background-color: lightgrey;
+  padding: 1rem;
+  margin: 1rem 0 1rem 0;
+}
 
 /*******************************  
             FORM
@@ -117,17 +135,3 @@ This css will make the skip links navigation be hidden and only apear when user 
   cursor: pointer;
 }
 
-/*******************************  
-        Welcome Section
-*******************************/ 
-.welcome{
-  background-color: lightgray;
-  padding: 1rem;
-  margin: 7px 0 7px 0;
-}
-
-.owner{
-  background-color: lightgrey;
-  padding: 1rem;
-  margin: 7px 0 7px 0;
-}
