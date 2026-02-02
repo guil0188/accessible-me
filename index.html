@@ -96,9 +96,23 @@
             <label for="email">Email</label>
             <!-- adds id and name -->
             <input type="text" id="email" name="email" placeholder="Email" />
-            <input type="text" placeholder="Subject" />
-            <b>Your Message</b>
-            <textarea></textarea>
+            <!-- adds label for the subject for better and clear user experience -->
+            <label for="subject">Subject</label>
+            <!-- adds id and name -->
+            <input
+              type="text"
+              id="subject"
+              name="subject"
+              placeholder="Subject"
+            />
+            <!-- I switched the b tag element to a label for proper html formating -->
+            <label for="message">Your Message</label>
+            <!-- adds id name and place holder -->
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Message..."
+            ></textarea>
             <!-- adds the arial label for better accessibility -->
             <button type="submit" aria-label="submit form">Send</button>
           </form>
