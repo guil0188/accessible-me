@@ -4,7 +4,7 @@ body {
   font-family: 'Roboto', Helvetica, sans-serif;
   /* Removes background color to fix contrast of website */
   /* background-color: grey; */
-  margin: 0;
+  margin: 0 ;
   padding: 0;
 }
 
@@ -16,33 +16,40 @@ h5,
 h6 {
   font-family: 'Stick No Bills', 'Roboto', Helvetica, sans-serif;
 }
-
+/* sets the spacing of the website as a whole*/
 .container {
   max-width: 1080px;
   margin: 0 auto;
   padding: 0 1rem;
 }
-
+/* sets the width of the image */
 img {
   width: 100%;
 }
 
 .main-nav ul {
+  /* removes bullet points */
   list-style: none;
+  /* makes the navigation horizontal */
   display: flex;
+  /* allows items to flex onto new lines */
   flex-wrap: wrap;
+  /* removes any spacing around the nav */
   margin: 0;
   padding: 0;
 }
 
 .main-nav ul li {
+  /* adds space between the nav items */
   flex: 1;
+  /* aligns item to the center */
   text-align: center;
 }
 
 .main-nav ul li a {
   display: block;
   color: inherit;
+  /* removes underline */
   text-decoration: none;
   font-size: 1.25rem;
 }
@@ -106,5 +113,21 @@ This css will make the skip links navigation be hidden and only apear when user 
 .contact-section button:hover{
   background-color: black;
   color: white;
+  /* makes cursor point to indicate that button is clickable */
   cursor: pointer;
+}
+
+/*******************************  
+        Welcome Section
+*******************************/ 
+.welcome{
+  background-color: lightgray;
+  padding: 1rem;
+  margin: 7px 0 7px 0;
+}
+
+.owner{
+  background-color: lightgrey;
+  padding: 1rem;
+  margin: 7px 0 7px 0;
 }
